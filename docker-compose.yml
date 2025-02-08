@@ -67,7 +67,7 @@ services:
       - stack.env
 
 volumes:
-  data:
-  media:
-  pgdata:
-  redisdata:
+  data: /pl_ngx_data/data
+  media: /pl_ngx_data/media
+  pgdata: /pl_ngx_data/pgsdata
+  redisdata: /pl_ngx_data/redisdata
